@@ -1,0 +1,8 @@
+bash-3.2$ pwd
+/Applications/xampp/htdocs/drupal/sites/all/modules/tinymce
+bash-3.2$ ls
+INSTALL.txt		plugins			tinymce.info
+LICENSE.txt		po			tinymce.install
+README.TXT		tinymce			tinymce.module
+plugin_reg.php		tinymce.admin.inc
+bash-3.2$ 

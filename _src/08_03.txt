@@ -1,0 +1,17 @@
+<link rel="alternate" type="application/rss+xml" title="RSS" href="{path={my_template_group}/rss_2.0}" />
+<link rel="alternate" type="application/atom+xml" title="Atom" href="{path={my_template_group}/atom}" />
+
+</head>
+
+<body>
+
+<div id="topbar"></div>
+<div class="secondbar"></div>
+
+
+<div id="wrapper">
+<div id="header">
+
+<ul id="navbar">
+  <li id="home"><a href="{homepage}" title="Home">Home</a></li>
+  <li id="about"><a href="{path={my_template_group}/about}" title="About">About</a></li>

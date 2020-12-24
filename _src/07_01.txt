@@ -1,0 +1,3 @@
+<h3>Main Menu</h3>
+
+<ul class="menu"><li id="current" class="active item1"><a href="http://localhost/joomla/"><span>Home</span></a></li><li class="parent item53"><a href="/joomla/index.php?option=com_content&amp;view=section&amp;id=5&amp;Itemid=53"><span>Postures</span></a></li><li class="item54"><a href="/joomla/index.php?option=com_content&amp;view=section&amp;id=6&amp;Itemid=54"><span>About Us</span></a></li><li class="item55"><a href="/joomla/index.php?option=com_content&amp;view=section&amp;id=7&amp;Itemid=55"><span>Yoga Background</span></a></li><li class="item56"><a href="/joomla

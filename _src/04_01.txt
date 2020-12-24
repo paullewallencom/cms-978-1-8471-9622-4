@@ -1,0 +1,3 @@
+create database wordpress;
+grant all privileges on wordpress.* to oscms@localhost identified by 'oscmsPass';
+flush privileges;

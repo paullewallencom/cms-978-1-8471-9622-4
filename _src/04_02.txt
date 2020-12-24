@@ -1,0 +1,8 @@
+<?php
+// ** MYSQL settings ** //
+define('DB_NAME', 'wordpress');
+define('DB_USER', 'oscms');
+define('DB_PASSWORD', 'oscmsPass');
+define('DB_HOST', 'localhost');
+define('DB_CHARSET', 'utf8');
+define('DB_COLLATE', '');

@@ -1,0 +1,23 @@
+ {* Start Content Area *}
+      <div id="main">
+         <div style="float: right;">{print showbutton=true script=true}</div>
+         <h2>{title}</h2>
+         {content} <br />
+
+         {* Start relational links *}
+	 <div class="hr"></div>
+	 <div class="right49">
+	 	<p>{anchor anchor='main' text='^ Top'}</p>
+	 </div>
+         <div class="left49">
+            <p>{cms_selflink dir="previous" label="Previous page: "} <br />
+            {cms_selflink dir="next"}</p>
+         </div>
+         {* The label parameter doesn't need to be there if you're using English, but is here to show how it's used if you don't want the English text "Previous page" *}
+	 {* End relational links *}
+
+      {global_content name='product'}
+
+      <hr class="accessibility" />
+      </div>
+	  {* End Content Area *}

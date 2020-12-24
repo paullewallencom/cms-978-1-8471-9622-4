@@ -1,0 +1,9 @@
+<?php
+// ** MYSQL settings ** //
+define('DB_NAME', 'nirav_db');	// The name of the database
+define('DB_USER', 'nirav_user');	// Your MySQL username
+define('DB_PASSWORD', 'password');	// ...and password
+define('DB_HOST', 'localhost');	// 99% chance you won't need to change !
+
+// Change the prefix if you want to have multiple blogs in a single database.
+$table_prefix = 'wp_';	// example: 'wp_' or 'b2' or 'mylogin_'

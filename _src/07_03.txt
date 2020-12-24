@@ -1,0 +1,14 @@
+div#navmenu li.active a {
+	background: url(../images/style1/nav_active_r.png) no-repeat bottom right;
+	color: #FFF;
+}
+
+/* @end */
+
+
+/* @group Left Nav */
+
+#leftcol ul#mainlevel,#rightcol ul#mainlevel,
+#leftcol ul#mainlevel-sidenav,#rightcol ul#mainlevel-sidenav {
+	list-style: none;
+}

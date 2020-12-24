@@ -1,0 +1,13 @@
+/* @group Left Nav */
+
+ul.menu li {
+  padding: 5px 10px 10px 5px;
+  background: url(../images/style1/leftnav_norm.png) no-repeat;
+}
+ul.menu li:hover, ul.menu li:iehover  {
+  background: url(../images/style1/leftnav_over.png) no-repeat;
+}
+
+ul.menu li:active  {
+  background: url(../images/style1/leftnav_active.png) no-repeat;
+}

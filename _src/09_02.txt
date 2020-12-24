@@ -1,0 +1,23 @@
+#Perform the content postrender callback
+reset($gCms->modules);
+while (list($key) = each($gCms->modules))
+{
+	$value =& $gCms->modules[$key];
+	if ($gCms->modules[$key]['installed'] == true &&
+		$gCms->modules[$key]['active'] == true)
+	{
+		$gCms->modules[$key]['object']->ContentPostRender($html);
+	}
+}
+
+Events::SendEvent('Core', 'ContentPostRender', array('content' => &$html));
+
+header("Content-Type: " . $gCms->variables['content-type'] . "; charset=" . (isset($pageinfo->template_encoding) && $pageinfo->template_encoding != ''?$pageinfo->template_encoding:get_encoding()));
+
+echo $html;
+
+@ob_flush();
+
+$endtime = microtime();
+
+$db =& $gCms->GetDb();
